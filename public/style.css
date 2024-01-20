@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 8vh;
+  background-color: #492e87;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  box-shadow: 1px 5px 5px #8888;
+  margin-bottom: 20px;
+}
+
+.header-wrapper h1 {
+  font-size: 1.5rem;
+  color: #f2f597;
+  letter-spacing: 3px;
+  font-family: cursive, sans-serif;
+  font-weight: 400;
+}
+
+.createArea-wrapper {
+  width: 60%;
+  height: 20vh;
+  background-color: #37b5b6;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 5px 5px #8888;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.createArea-wrapper input {
+  width: 70%;
+  height: 20%;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.createArea-wrapper textarea {
+  width: 70%;
+  height: 40%;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.createArea-wrapper button {
+  width: 40%;
+  height: 15%;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.createArea-wrapper button:hover {
+  width: 42%;
+  height: 17%;
+  font-size: 0.9rem;
+  background-color: white;
+  color: #37b5b6;
+}
+
+.note-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.note-wrapper {
+  max-width: auto;
+  height: auto;
+  background-color: #f2f597;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 5px 5px #8888;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.note-wrapper h1 {
+  font-size: 1.5rem;
+  font-family: cursive, sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.note-wrapper p {
+  font-size: 1rem;
+  font-family: cursive, sans-serif;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.delete-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.delete-wrapper button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 5px 5px #8888;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete-wrapper button:hover {
+  padding: 7px;
+}

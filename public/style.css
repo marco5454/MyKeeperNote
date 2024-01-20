@@ -144,3 +144,15 @@
 .delete-wrapper button:hover {
   padding: 7px;
 }
+
+@media (min-width: 1332px) {
+  .createArea-wrapper {
+    width: 30%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .createArea-wrapper {
+    width: 20%;
+  }
+}

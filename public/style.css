@@ -186,6 +186,13 @@
   }
 }
 
+@media (min-width: 1880px) {
+  .createArea-wrapper {
+    width: 30%;
+    height: 30vh;
+  }
+}
+
 @media (min-width: 2000px) {
   .createArea-wrapper {
     width: 20%;

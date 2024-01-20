@@ -145,6 +145,41 @@
   padding: 7px;
 }
 
+@media (min-width: 414px) {
+  .createArea-wrapper {
+    width: 60%;
+    height: 16vh;
+  }
+
+  .header-wrapper h1 {
+    font-size: 3rem;
+    margin-left: 20px;
+  }
+
+  .createArea-wrapper input {
+    height: 17%;
+    font-size: 2rem;
+  }
+
+  .createArea-wrapper textarea {
+    width: 70%;
+    height: 35%;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .createArea-wrapper button {
+    width: 40%;
+    height: 15%;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
 @media (min-width: 1332px) {
   .createArea-wrapper {
     width: 30%;
